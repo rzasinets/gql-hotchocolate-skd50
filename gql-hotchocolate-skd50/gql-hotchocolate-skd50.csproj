@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>gql_hotchocolate_skd50</RootNamespace>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <NoWarn>$(NoWarn);1591</NoWarn>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FairyBread" Version="8.0.0" />
+        <PackageReference Include="FluentValidation.AspNetCore" Version="10.3.5" />
+        <PackageReference Include="HotChocolate.AspNetCore" Version="12.3.2" />
+        <PackageReference Include="HotChocolate.AspNetCore.Authorization" Version="12.3.2" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    </ItemGroup>
+
+</Project>
